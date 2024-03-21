@@ -124,7 +124,7 @@ document.addEventListener('keydown', (event) => {
               break;
             case 'area-11':
               popupTitle = 'Cvent'
-              popupContent = 'Starting out as a humble customer success manager, Brett learned the ins and outs of the software industry at <a href="https://cvent.com" target="_blank">Cvent</a> and quickly rised through the ranks. He eventually started his own team internally and built it to a $20 million per year business. This is where he started getting a taste for startups and marketing. In 2017, he won Cventer of the year, and had built the team to 40 employees across 3 different countries.<br></br>Press the Space bar to close the window!';
+              popupContent = 'Starting out as a humble customer success manager, Brett learned the ins and outs of the software industry at <a href="https://cvent.com" target="_blank">Cvent</a> and quickly rose through the ranks. He eventually started his own team internally and built it to a $20 million per year business. This is where he started getting a taste for startups and marketing. In 2017, he won Cventer of the year, and had built the team to 40 employees across 3 different countries.<br></br>Press the Space bar to close the window!';
               break;
             case 'area-12':
               popupTitle = 'Starry'
