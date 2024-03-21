@@ -96,15 +96,15 @@ document.addEventListener('keydown', (event) => {
           switch (area.id) {
             case 'area-4':
               popupTitle = 'Up and to the Right, Growth plans for tiny startups'
-              popupContent = 'We always hear about the Ubers and Airbnbs of the world once they are inevitable. But what about when they are questionable? How did they grow into those beasts and what companies are primed to be next? In <a href = "https://upandtotheright.substack.com/">Up and to the Right </a>I craft growth strategies for early stage startups that you have yet to hear of.<br></br>Press the Space bar to close the window!';
+              popupContent = 'We always hear about the Ubers and Airbnbs of the world once they are inevitable. But what about when they are questionable? How did they grow into those beasts and what companies are primed to be next? In <a href = "https://upandtotheright.substack.com/" target="_blank">Up and to the Right </a>I craft growth strategies for early stage startups that you have yet to hear of.<br></br>Press the Space bar to close the window!';
               break;
             case 'area-5':
               popupTitle = 'Adium - Benchmarking that works'
-              popupContent = 'How good are your ads actually? Adium is a free benchmarking tool for anyone running Facebook or Google ads. Try it for free <a href="https://https://adiumdata.carrd.co/">here</a><br></br>Press the Space bar to close the window!';
+              popupContent = 'How good are your ads actually? Adium is a free benchmarking tool for anyone running Facebook or Google ads. Try it for free <a href="https://https://adiumdata.carrd.co/" target="_blank">here</a><br></br>Press the Space bar to close the window!';
               break;
             case 'area-6':
               popupTitle = 'Links - a better way to network'
-              popupContent = '<a href="https://linksgolf.carrd.co/">Links </a>is a modern day club for golf enthusiasts in tech. Dont pick someones brain, join them for 9 holes instead. <br></br>Press the Space bar to close the window!';
+              popupContent = '<a href="https://linksgolf.carrd.co/" target="_blank">Links </a>is a modern day club for golf enthusiasts in tech. Dont pick someones brain, join them for 9 holes instead. <br></br>Press the Space bar to close the window!';
               break;
             case 'area-7':
               popupTitle = 'SF and a happy family'
@@ -124,19 +124,19 @@ document.addEventListener('keydown', (event) => {
               break;
             case 'area-11':
               popupTitle = 'Cvent'
-              popupContent = 'Starting out as a humble customer success manager, Brett learned the ins and outs of the software industry at <a href="https://cvent.com">Cvent</a> and quickly rised through the ranks. He eventually started his own team internally and built it to a $20 million per year business. This is where he started getting a taste for startups and marketing. In 2017, he won Cventer of the year, and had built the team to 40 employees across 3 different countries.<br></br>Press the Space bar to close the window!';
+              popupContent = 'Starting out as a humble customer success manager, Brett learned the ins and outs of the software industry at <a href="https://cvent.com" target="_blank">Cvent</a> and quickly rised through the ranks. He eventually started his own team internally and built it to a $20 million per year business. This is where he started getting a taste for startups and marketing. In 2017, he won Cventer of the year, and had built the team to 40 employees across 3 different countries.<br></br>Press the Space bar to close the window!';
               break;
             case 'area-12':
               popupTitle = 'Starry'
-              popupContent = 'Desperate for a "true" startup, Brett joined an up and coming internet startup, but not the kind you are thinking of. <a href="https://starry.com">Starry</a> literally brought internet to your house. As one of the first members of the Starry DC launch team, Brett had his hands in a bit of everything. Marketing, sales, pointing radios, laying fiber optic cable, installing internet at people’s houses - nothing was off limits. After 2 years, Brett had helped build the DC market to 20,000 subscribers across dozens of buildings and was managing the installer team, customer success team, and the in-market marketing team. <br></br>Press the Space bar to close the window!';
+              popupContent = 'Desperate for a "true" startup, Brett joined an up and coming internet startup, but not the kind you are thinking of. <a href="https://starry.com" target="_blank">Starry</a> literally brought internet to your house. As one of the first members of the Starry DC launch team, Brett had his hands in a bit of everything. Marketing, sales, pointing radios, laying fiber optic cable, installing internet at people’s houses - nothing was off limits. After 2 years, Brett had helped build the DC market to 20,000 subscribers across dozens of buildings and was managing the installer team, customer success team, and the in-market marketing team. <br></br>Press the Space bar to close the window!';
               break;
             case 'area-13':
               popupTitle = 'Hivemapper'
-              popupContent = 'Eager to fully realize his tech aspirations, Brett moved to San Francisco in 2020 and joined Hivemapper. Hivemapper is a drone mapping platform attempting to replace Google Maps through decentralized drone footage. Brett was responsible for getting all of those drone pilots and making sure they were mapping in the right places where people would pay for the maps. Within a few months, Brett created a drone mapping community of hundreds of pilots in dozens of countries, and helped Hivemapper prep for their Series A fundraise.<br></br>Press the Space bar to close the window!';
+              popupContent = 'Eager to fully realize his tech aspirations, Brett moved to San Francisco in 2020 and joined Hivemapper. <a href="https://hivemapper.com" target="_blank">Hivemapper<a/> is a drone mapping platform attempting to replace Google Maps through decentralized drone footage. Brett was responsible for getting all of those drone pilots and making sure they were mapping in the right places where people would pay for the maps. Within a few months, Brett created a drone mapping community of hundreds of pilots in dozens of countries, and helped Hivemapper prep for their Series A fundraise.<br></br>Press the Space bar to close the window!';
               break;
             case 'area-14':
               popupTitle = 'Platform Venture Studio'
-              popupContent = 'To complete the tech startup meme, Brett finally entered the venture capital world in Feb of 2021. At <a href="https://platformstud.io">Platform Venture Studio</a>, his job is to help each portfolio company that the studio incubated find their early growth. Building a startup is hard. It involves a lot of fits and starts. What you try to begin with is usually wrong. Brett partners with the potential founders of the studio’s portfolio to get them through this early chaos. That often means doing a lot of different roles (are you sensing a theme with his career here?). Marketing, sales, fundraising, operations, customer service are all fair game and all parts of the job that he adores.<br></br>Press the Space bar to close the window!';
+              popupContent = 'To complete the tech startup meme, Brett finally entered the venture capital world in Feb of 2021. At <a href="https://platformstud.io" target="_blank">Platform Venture Studio</a>, his job is to help each portfolio company that the studio incubated find their early growth. Building a startup is hard. It involves a lot of fits and starts. What you try to begin with is usually wrong. Brett partners with the potential founders of the studio’s portfolio to get them through this early chaos. That often means doing a lot of different roles (are you sensing a theme with his career here?). Marketing, sales, fundraising, operations, customer service are all fair game and all parts of the job that he adores.<br></br>Press the Space bar to close the window!';
               break;
             // Add more cases for each clickable area with its unique popup content
             default:
@@ -196,7 +196,7 @@ function showCongratulationsPopup() {
   congratulationsPopup.innerHTML = `
     <h2>Thanks for getting to know me!</h2>
     <p>Hey there! Thanks for learning more about me. If you'd like to connect, you can email me at <a href="mailto:brettwischow@gmail.com">brettwischow@gmail.com </a>
-    or set up some time with me <a href= "https://calendly.com/brett-platform/30min">here </a>. Enjoy the rest of your day!</p>
+    or set up some time with me <a href= "https://calendly.com/brett-platform/30min" target="_blank">here </a>. Enjoy the rest of your day!</p>
     <button id="close-congrats-popup">Close</button>
   `;
   document.body.appendChild(congratulationsPopup);
