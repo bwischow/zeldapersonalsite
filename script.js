@@ -175,7 +175,7 @@ function showPopup(areaId, title, content) {
     popupContainer.remove();
     document.removeEventListener('keydown', handleKeyDown);
     if (coins === 10) {
-      setTimeout(showCongratulationsPopup, 10000);
+      setTimeout(showCongratulationsPopup, 5000);
     }
   }
 
