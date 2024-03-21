@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #brett-coins {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  #character {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background-image: url('character.png');
+    background-size: cover;
+    z-index: 1;
+  }
+  
+  #background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #background-image-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #background-image-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background3.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #background-image-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background4.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #area-1 {
+    top: 35%;
+    left: 5%;
+  }
+  
+  #area-2 {
+    top: 80%;
+    left: 60%;
+  }
+  
+  #area-3 {
+    top: 35%;
+    right: 5%;
+  }
+  
+  #area-4 {
+    top: 20%;
+    right: 80%;
+  }
+  
+  #area-5 {
+    top: 20%;
+    right: 50%;
+  }
+  
+  #area-6 {
+    top: 20%;
+    right: 20%;
+  }
+  
+  #area-7 {
+    top: 20%;
+    right: 80%;
+  }
+  
+  #area-8 {
+    top: 20%;
+    right: 50%;
+  }
+  
+  #area-9 {
+    top: 20%;
+    right: 20%;
+  }
+  
+  #area-10 {
+    top: 20%;
+    right: 90%;
+  }
+  
+  #area-11 {
+    top: 20%;
+    right: 70%;
+  }
+  
+  #area-12 {
+    top: 20%;
+    right: 50%;
+  }
+  #area-13 {
+    top: 20%;
+    right: 30%;
+  }
+  #area-14 {
+    top: 20%;
+    right: 10%;
+  }
+  
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    visibility: hidden;
+  }
+  
+  #congratulations-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    text-align: center;
+  }
+  
+  #congratulations-popup h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #congratulations-popup p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #congratulations-popup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clickable-area {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border: 10px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .clickable-area.active {
+    border-color: #000;
+  }
+  
+  #home-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: auto;
+  }
