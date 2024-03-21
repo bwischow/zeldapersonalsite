@@ -174,6 +174,9 @@ function showPopup(areaId, title, content) {
   function closePopup() {
     popupContainer.remove();
     document.removeEventListener('keydown', handleKeyDown);
+    if (coins === 10) {
+      setTimeout(showCongratulationsPopup, 10000);
+    }
   }
 
   function handleKeyDown(event) {
@@ -191,8 +194,9 @@ function showCongratulationsPopup() {
   const congratulationsPopup = document.createElement('div');
   congratulationsPopup.id = 'congratulations-popup';
   congratulationsPopup.innerHTML = `
-    <h2>Congratulations!</h2>
-    <p>Hey there! Thanks for learning more about me. If you'd like to connect, you can email me at brettwischow@gmail.com or set up some time with me here. Enjoy the rest of your day!</p>
+    <h2>Thanks for getting to know me!</h2>
+    <p>Hey there! Thanks for learning more about me. If you'd like to connect, you can email me at brettwischow@gmail.com 
+    or set up some time with me <a href= "https://calendly.com/brett-platform/30min">here</a>. Enjoy the rest of your day!</p>
     <button id="close-congrats-popup">Close</button>
   `;
   document.body.appendChild(congratulationsPopup);
