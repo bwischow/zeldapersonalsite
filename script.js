@@ -104,7 +104,7 @@ document.addEventListener('keydown', (event) => {
               break;
             case 'area-6':
               popupTitle = 'Links - a better way to network'
-              popupContent = '<a href="https://linksgolf.carrd.co/" target="_blank">Links </a>is a modern day club for golf enthusiasts in tech. Dont pick someones brain, join them for 9 holes instead. <br></br>Press the Space bar to close the window!';
+              popupContent = '<a href="https://linksleague.carrd.co/" target="_blank">Links </a>is a modern day club for golf enthusiasts in tech. Dont pick someones brain, join them for 9 holes instead. <br></br>Press the Space bar to close the window!';
               break;
             case 'area-7':
               popupTitle = 'SF and a happy family'
